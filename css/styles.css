@@ -27,6 +27,12 @@ body {
     visibility: hidden;
 }
 
+p::selection,
+h1::selection,
+h6::selection {
+    background: #fc636b7a;
+}
+
 
 /*******Variables *******/
 .mt-8 {
@@ -184,6 +190,7 @@ nav {
     margin-top: 80px;
     color: #333;
     margin-bottom: 100px;
+    max-width: 1300px;
 }
 
 .heading-block h1 {
@@ -195,4 +202,29 @@ nav {
     text-align: center;
     color: rgb(112, 112, 112);
     font-size: 18px;
+}
+
+.services-block {
+    margin-top: 50px;
+}
+
+.services-img img {
+    width: 15%;
+    display: block;
+    position: absolute;
+}
+
+.services-text {
+    padding-left: 90px;
+}
+
+.services-text h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.services-text p {
+    font-size: 15px;
+    color: rgb(131, 131, 131);
+    line-height: 1.8;
 }
