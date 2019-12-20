@@ -1,0 +1,116 @@
+<section>
+      <div class="header-box">
+        <div class="box-part-1">
+          <h1>Features</h1>
+          <p class="box-features-text">Enthusiastically orchestrate orthogonal core competencies before processes.</p>
+        </div>
+        <div class="box-part-2">
+          <div class="box-list">
+            <p>Assertively Fabricate.</p>
+            <p>Distinctively disseminate.</p>
+            <p>Appropriately predominate.</p>
+          </div>
+        </div>
+        <div class="box-part-3">
+          <div class="box-list">
+            <p>Assertively Fabricate.</p>
+            <p>Distinctively disseminate.</p>
+            <p>Appropriately predominate.</p>
+        </div>
+      </div>
+    </section>
+
+.header-box {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    background-color: #fff;
+    color: rgb(73, 73, 73);
+    height: 25vh;
+    border-radius: 3px;
+    position: relative;
+    top: -60px;
+    margin-bottom: -50px;
+    justify-content: space-around;
+    font-weight: 300;
+}
+
+.box-part-1,
+.box-part-2,
+.box-part-3 {
+    flex: 1;
+    margin-right: 30px;
+}
+
+
+.box-part-1 h1 {
+    font-weight: 400;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.box-part-1 p {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(161, 161, 161);
+}
+
+.box-part-2,
+.box-part-3 {
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.box-list p {
+    margin-bottom: 20px;
+}
+
+<!-- <section class="header-items">
+        <div class="header-text">
+          <h1>Build your own Awesome Website</h1>
+          <p>
+            Dramatically syndicate end-to-end leadership skills for virtual
+            solutions. Assertively transform high-payoff ideas rather than
+            virtual process improvements.
+          </p>
+
+          <div class="header-buttons">
+            <a href="#" class="create-account">Create Account</a>
+          </div>
+        </div>
+
+        <div class="header-image">
+          <img src="./images/3.png" alt="header image" />
+        </div>
+      </section> -->
+
+/******* Header items *******/
+/* .header-items {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+
+    height: 70vh;
+    justify-content: space-around;
+} */
+
+/******* Header text items *******/
+/* .header-text {
+    width: 30%;
+    height: 30vh;
+
+} */
+
+/* .header-text h1 {
+    font-size: 50px;
+} */
+
+/******* Header image items *******/
+/* .header-image {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+} */
