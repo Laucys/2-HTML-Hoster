@@ -56,6 +56,9 @@ h6::selection {
     font-size: 18px;
 }
 
+.block {
+    display: block;
+}
 
 header {
     background-image: linear-gradient(to right bottom, #fc636bcc, rgb(202, 91, 97, 0.8)), url(../images/header.jpg);
@@ -205,8 +208,8 @@ nav {
     max-width: 1300px;
 }
 
-.heading-block h1 {
-    font-size: 40px;
+.heading-block h2 {
+    text-align: center;
 }
 
 
@@ -252,3 +255,18 @@ nav {
     margin: auto;
 }
 
+.input-group {
+    
+}
+
+.append-height {
+   height: 44px;
+}
+
+.btn-16 {
+    font-size: 16px;
+}
+
+.input-small {
+    height: 44px;
+}
