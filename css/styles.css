@@ -64,6 +64,10 @@ h6::selection {
     text-align: center;
 }
 
+.color {
+    color: #fc636bcc;
+}
+
 header {
     background-image: linear-gradient(to right bottom, #fc636bcc, rgb(202, 91, 97, 0.8)), url(../images/header.jpg);
     height: 90vh;
@@ -334,4 +338,13 @@ nav {
     font-size: 16px;
     font-weight: 500;
     color: rgb(148, 148, 148);
+}
+
+.card-body img {
+    width: 50px;
+}
+
+.card-body h6 {
+    font-size: 18px;
+    font-weight: bold;
 }
