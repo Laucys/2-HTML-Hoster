@@ -60,6 +60,10 @@ h6::selection {
     display: block;
 }
 
+.center {
+    text-align: center;
+}
+
 header {
     background-image: linear-gradient(to right bottom, #fc636bcc, rgb(202, 91, 97, 0.8)), url(../images/header.jpg);
     height: 90vh;
@@ -208,18 +212,12 @@ nav {
     max-width: 1300px;
 }
 
-.heading-block h2 {
-    text-align: center;
-}
-
-
 .heading-block p {
-    text-align: center;
     color: rgb(112, 112, 112);
 }
 
 .services-block {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .services-img img {
@@ -316,4 +314,24 @@ nav {
 
 .map-image img {
     max-width: 100%;
+}
+
+/******* Sign up *******/
+
+.sign-up {
+    background-color: #fc636bcc;
+    padding: 60px 0;
+}
+
+.sign-button {
+    margin: 0;
+}
+
+/******* Card services *******/
+
+.before-card p {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(148, 148, 148);
 }
