@@ -69,8 +69,7 @@
     }
  
     .h-image img {
-        width: 70%;
-        margin-top: 20px;
+        display: none;
     }
 
     .center-element-xs {
